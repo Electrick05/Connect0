@@ -29,9 +29,22 @@
 		698FF5E92CAC77C1001BF7D6 /* Connect0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Connect0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6942860E2CAC98F9000B1CA2 /* Exceptions for "Connect0" folder in "Connect0" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 698FF5CE2CAC77C0001BF7D6 /* Connect0 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		698FF5D12CAC77C0001BF7D6 /* Connect0 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6942860E2CAC98F9000B1CA2 /* Exceptions for "Connect0" folder in "Connect0" target */,
+			);
 			path = Connect0;
 			sourceTree = "<group>";
 		};
@@ -396,8 +409,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Connect0/Preview Content\"";
+				DEVELOPMENT_TEAM = 87CLR6NQ47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Connect0/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,8 +439,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Connect0/Preview Content\"";
+				DEVELOPMENT_TEAM = 87CLR6NQ47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Connect0/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,24 +1,25 @@
 //
-//  ContentView.swift
+//  ProfileView.swift
 //  Connect0
 //
-//  Created by Rick de Rijk on 01/10/2024.
+//  Created by Rick de Rijk on 04/10/2024.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct profileView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Download Connect YEET")
+            Text("Hello, world!")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    profileView()
 }
+
